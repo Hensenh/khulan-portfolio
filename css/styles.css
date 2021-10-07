@@ -1,0 +1,160 @@
+#header-container {
+  display:flex;
+  background-image: url("../img/header_background.svg");
+  background-size:100%;
+  height: 100px;
+  width:100%;
+  background-color: #8ECFC9;
+  align-items: center;
+}
+
+#header-left-group {
+  margin-left: 22px;
+}
+
+#header-right-group {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+#header-nav-bar {
+  display:flex;
+  position:relative;
+  align-items: center;
+
+
+  background-image: url("../img/ribbon.svg");
+  background-repeat:no-repeat;
+  margin: -35px auto 0 auto;
+  width:740px;
+  height:74px;
+  z-index: 1;
+
+
+}
+
+a.header-url{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #786951;
+  text-decoration:none;
+}
+
+p {
+  font-family: 'Nunito';
+  color: #4B4B4B;
+}
+
+span {
+  font-family: 'Nunito';
+  color: #4B4B4B;
+}
+
+
+.link-container{
+  display:flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  height:40px;
+  margin-left:auto;
+  margin-bottom: 10px;
+}
+
+
+.link-container:hover{
+  background: #FFFFFF;
+  border-radius: 40px;
+}
+
+#first-link {
+  text-decoration:underline;
+  background: #FFFFFF;
+  border-radius: 40px;
+  color: #786951;
+  margin-left:110px;
+}
+
+#last-link {
+    margin-right:110px;
+
+}
+
+#hero-section {
+  display:flex;
+  margin-top: -40px;
+  padding-top: 212px;
+  background-color: #FFE5E1;
+  padding-bottom: 172px;
+}
+
+#hero-description {
+  margin-right: auto;
+  margin-left: 40px;
+  max-width:700px;
+}
+
+#hero-image {
+  margin-top: -82px;
+  margin-left: auto;
+}
+
+.description-text {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.description-text-big {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.description-pink-text {
+  color: #E7899D;
+}
+
+.text-underline {
+  text-decoration: underline;
+    font-weight: bold;
+}
+
+#onhover-linkedin-icon {
+  display: none;
+}
+
+#linkedin-surround {
+  display:inline-block;
+}
+#initial-linkedin-icon{
+  margin: 5px;
+}
+#linkedin-surround:hover img[id="initial-linkedin-icon"] {
+  display: none;
+}
+
+#linkedin-surround:hover img[id="onhover-linkedin-icon"] {
+  display: block;
+}
+
+#onhover-email-icon {
+  display: none;
+}
+
+#email-surround {
+  display:inline-block;
+}
+#initial-email-icon{
+  margin: 5px;
+}
+#email-surround:hover img[id="initial-email-icon"] {
+  display: none;
+}
+
+#email-surround:hover img[id="onhover-email-icon"] {
+  display: block;
+}
