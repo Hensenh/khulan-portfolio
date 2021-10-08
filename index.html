@@ -13,7 +13,7 @@
     <meta property="og:description" content="Hi there! I’m Khulan Hoshartsaga. I create functional designs for people.">
     <meta property="og:image" content="image.png">
 
-    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <link rel="icon" href="img/tab_icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="stylesheet" href="css/reset.css?v=1.0">
@@ -31,7 +31,7 @@
       <div id="header-container">
         <div id="header-left-group">
            <img src="img/logo.svg">
-           <img src="img/khulaniee.png">
+           <img id="khulaniee-img" src="img/khulaniee.png">
         </div>
 
         <div id="header-right-group">
@@ -48,12 +48,15 @@
         </div>
       </div>
       <div id="header-nav-bar">
-        <div class="link-container" id="first-link">
-          <a class = "header-url" href="url">Home</a>
+        <div class="link-container first-link">
+          <div class="selected-link-wrapper">
+            <a class = "header-url" href="url">Home</a>
+            <img src ="img/underline.svg" id="underline-image">
+          </div>
         </div>
 
         <div class="link-container">
-          <a class = "header-url" href="url">About</a>
+          <a class = "header-url" href="about.html">About</a>
         </div>
 
 
@@ -63,7 +66,7 @@
 
 
 
-        <div class="link-container" id="last-link">
+        <div class="link-container last-link" >
           <a class = "header-url" href="url">Resume</a>
         </div>
 
