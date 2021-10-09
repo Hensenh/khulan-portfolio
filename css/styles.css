@@ -90,12 +90,13 @@ span {
 }
 
 .first-link {
+  margin-left:110px;
+}
+.selected-link {
   background: #F8EEEC;
   border-radius: 40px;
   color: #786951;
-  margin-left:110px;
 }
-
 .last-link {
   margin-right:110px;
 }
@@ -131,7 +132,7 @@ span {
 }
 
 #arrow-container {
-  display:block;
+  display:flex;
   margin-top: 60px;
   height:50px;
   width: 100px;
@@ -142,6 +143,8 @@ span {
 #arrow {
   animation:arrow-animation 2s ease-out forwards;
   animation-iteration-count: infinite;
+  height: 15px;
+  width: 30px;
 }
 
 #triangle {
@@ -172,9 +175,13 @@ span {
   color: #E7899D;
 }
 
-.text-underline {
+.text-underline-bold {
   text-decoration: underline;
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 #onhover-linkedin-icon {
@@ -337,7 +344,7 @@ h4 {
 }
 
 #additional-work-button-pressed {
-  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 #additional-work-surround {
@@ -401,4 +408,37 @@ h4 {
   margin-bottom: 39px;
   margin-left: 85px;
   margin-right: 85px;
+}
+
+
+
+/* About page*/
+#passport-container {
+  height: 616px;
+  width: 940px;
+  margin-top: -38px;
+  background-image: url("../img/khulan_passport.png");
+  background-repeat: round;
+}
+
+#khulan-pic {
+  margin-left: 110px;
+  margin-top: 185px;
+}
+
+#passport-stich {
+  margin-top: 66px;
+}
+
+#break-container{
+  display:flex;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#about-me-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 75px;
 }
