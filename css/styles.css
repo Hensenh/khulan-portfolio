@@ -43,7 +43,7 @@ html {
   background-repeat:no-repeat;
   margin: -35px auto 0 auto;
   width:740px;
-  height:74px;
+  height:80px;
   z-index: 4;
 }
 
@@ -147,6 +147,29 @@ span {
   width: 30px;
 }
 
+#go-up-text {
+  display: none;
+}
+
+#go-up-text-container {
+  display: flex;
+  width:82px;
+  position: sticky;
+
+  text-align: center;
+  margin-left: 43px;
+  font-weight: bold;
+}
+
+#go-up-arrow-container {
+  display:flex;
+  position: sticky;
+  margin-left: 50px;
+  margin-top: 200px;
+  top: calc(100vh - 5rem);
+}
+
+
 #triangle {
   margin-top: 60px;
   margin-left: auto;
@@ -246,7 +269,7 @@ h4 {
 #case-study {
   display:flex;
   flex-direction :column;
-  margin-top: 80px;
+  margin-top: -180px;
 }
 
 #in-creative-case-study{
