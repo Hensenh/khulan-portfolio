@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-
-
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
   </head>
 
@@ -61,7 +59,7 @@
         </div>
 
         <div class="link-container last-link" >
-          <a class = "header-url" href="url">Resume</a>
+          <a class = "header-url" href="khulan_design_resume.pdf">Resume</a>
         </div>
 
       </div>
@@ -111,14 +109,19 @@
 
           <div id="in-creative-outer-box">
             <div class="description-box">
-              <h3 style= "margin-top: 40px; font-weight: bold; text-align: center; color: #78789C;">In Creative Company </h3>
-              <img src = "img/increative_underline.svg" id="increative-underline">
-              <h4 style= "margin-top: 10px; font-weight: 600; text-align: center;">Academic • Client </h4>
-              <h4 style= "margin-top: 10px; text-align: center;">Empowering a community of creative freelancers through a website refresh and usability improvements </h4>
+              <h3 id="in-creative-title" style= "margin-top: 40px; font-weight: bold; text-align: center; color: #78789C;">In Creative Company </h3>
+              <div id="increative-text-wrapper">
+                <img src = "img/increative_underline.svg" id="increative-underline">
+                <h4 style= "margin-top: 10px; font-weight: 600; text-align: center;">Academic • Client </h4>
+                <h4 style= "margin-top: 10px; text-align: center;">Empowering a community of creative freelancers through a website refresh and usability improvements </h4>
+              </div>
             </div>
 
           </div>
 
+        </div>
+
+        <div style= "height: 100px">
         </div>
 
         <div id="netflix-case-study">
@@ -128,10 +131,12 @@
 
           <div id="netflix-outer-box">
             <div class="description-box">
-              <h3 style= "margin-top: 27px; font-weight: bold; text-align: center; color: #D66D71;">Netflix </h3>
-              <img id="netflix-underline" src = "img/netflix_underline.svg">
-              <h4 style= "margin-top: 10px; font-weight: 600; text-align: center;">Academic • Concept </h4>
-              <h4 style= "margin-top: 10px; text-align: center;">Crafting a shared video stream experience for Netflix users so they can enjoy the same shows and movies together</h4>
+              <h3  id="netflix-title" style= "margin-top: 27px; font-weight: bold; text-align: center; color: #D66D71;">Netflix </h3>
+              <div id="netflix-text-wrapper">
+                <img id="netflix-underline" src = "img/netflix_underline.svg">
+                <h4 style= "margin-top: 10px; font-weight: 600; text-align: center;">Academic • Concept </h4>
+                <h4 style= "margin-top: 10px; text-align: center;">Crafting a shared video stream experience for Netflix users so they can enjoy the same shows and movies together</h4>
+              </div>
             </div>
 
           </div>
@@ -186,5 +191,17 @@
         </div>
 
       </div>
+
+      <script>
+        ScrollReveal().reveal('#increative', { scale: 1.2, duration: 1000});
+        ScrollReveal().reveal('#in-creative-outer-box', {delay: 1000, ease: 'ease-in' });
+        ScrollReveal().reveal('#in-creative-title', { distance:'50px',delay:1200, duration: 1000});
+        ScrollReveal().reveal('#increative-text-wrapper', {distance:'50px', delay: 1600, duration: 1000 });
+
+        ScrollReveal().reveal('#netflix', { scale: 1.2, duration: 1000});
+        ScrollReveal().reveal('#netflix-outer-box', {delay: 1000, ease: 'ease-in' });
+        ScrollReveal().reveal('#netflix-title', { distance:'50px',delay:1200, duration: 1000});
+        ScrollReveal().reveal('#netflix-text-wrapper', {distance:'50px', delay: 1600, duration: 1000 });
+      </script>
   </body>
 </html>
