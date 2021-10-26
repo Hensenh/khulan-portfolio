@@ -152,9 +152,6 @@ span {
   width: 30px;
 }
 
-#go-up-text {
-  display: none;
-}
 
 #go-up-text-container {
   display: flex;
@@ -330,6 +327,7 @@ h4 {
   display:flex;
   flex-direction: row-reverse;
   align-self:center;
+  margin-top: 100px;
 }
 
 #netflix-outer-box {
@@ -472,11 +470,9 @@ h4 {
 
 #resume-button-pressed {
   display: none;
-}
-
-#resume-button-pressed {
   margin-top: 8px;
 }
+
 
 #resume-surround {
   margin-top: 40px;
@@ -489,4 +485,166 @@ h4 {
 
 #resume-surround:hover img[id="resume-button-pressed"] {
   display: inline;
+}
+
+#netflix-hero-section {
+    background-image: url("../img/netflix_waves.png");
+    display:flex;
+    flex-direction: column;
+    margin-top: -150px;
+    min-height: 638px;
+}
+
+#netflix-big-title {
+  margin-top: 185px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 95px;
+  color: #D66D71;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#netflix-hero-image {
+  max-width: 740px;
+  max-height: 424px;
+  margin-top: -300px;
+}
+
+.netflix-big-card {
+  margin-top: 58px;
+  background: #505050;
+  border: 10px solid #505050;
+  box-sizing: border-box;
+  border-radius: 20px;
+  max-width: 940px;
+}
+
+#netflix-overview-top{
+  display:flex;
+}
+
+.netflix-card-title {
+  margin-top:-48px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 68px;
+  color: #FFFFFF;
+  margin-left:50px;
+  text-transform: uppercase;
+}
+
+#netflix-overview-summary {
+  display: flex;
+  margin-top:55px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top:20px;
+}
+
+.card-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align:center;
+}
+
+.netflix-card {
+  flex-grow :1;
+  max-width:260px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.divider-line {
+  height: 140px;
+
+  border: 3px solid #2E2E2E;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.disclaimer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+}
+
+#read-case-study-button-pressed {
+  display: none;
+  margin-top: 8px;
+}
+
+
+#read-case-study-surround {
+  margin-top: 40px;
+  display:flex;
+  margin-bottom: 63px;
+}
+
+#read-case-study-surround:hover img[id="read-case-study-button"] {
+  display: none;
+}
+
+#read-case-study-surround:hover img[id="read-case-study-button-pressed"] {
+  display: inline;
+}
+
+ul li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul li.netflix-list {
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+b.netflix-bold {
+  color: #D66D71;
+  font-weight: bold;
+}
+
+#netflix-go-up-text-container {
+  display: flex;
+  width:82px;
+  position: sticky;
+
+  text-align: center;
+  margin-left: 43px;
+  font-weight: bold;
+}
+
+#netflix-go-up-arrow-container {
+  display:flex;
+  position: sticky;
+  margin-left: 50px;
+  top: calc(100vh - 5rem);
 }
