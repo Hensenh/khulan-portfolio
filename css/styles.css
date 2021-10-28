@@ -648,3 +648,58 @@ b.netflix-bold {
   margin-left: 50px;
   top: calc(100vh - 5rem);
 }
+
+
+#increative-hero-section {
+    background-image: url("../img/increative_waves.png");
+    display:flex;
+    flex-direction: column;
+    margin-top: -150px;
+    min-height: 628px;
+}
+
+#increative-big-title {
+  margin-top: 185px;
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6F70BC;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#increative-hero-image {
+  max-width: 740px;
+  max-height: 424px;
+  margin-top: -300px;
+}
+
+.increative-card-title {
+  margin-top:-48px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 68px;
+  color: #CAFFBF;
+  margin-left:50px;
+  text-transform: uppercase;
+}
+
+#increative-overview-top{
+  display:flex;
+  flex-direction:column;
+}
+
+.increative-big-card {
+  margin-top: 58px;
+  background: #A4A5CF;
+  border: 10px solid #A4A5CF;
+  box-sizing: border-box;
+  border-radius: 20px;
+  max-width: 940px;
+}
